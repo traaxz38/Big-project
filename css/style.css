@@ -1,0 +1,119 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+  font-size : 150%;
+  background: url(../img/back.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+  z-index: -1;
+}
+.register {
+  text-align: center;
+  background : white;
+  color : black;
+  padding : 10px;
+  margin : auto;
+  width : fit-content;
+  border: inset gray thick;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.green-button {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#test{
+	padding: 20px;	
+}
+
+
+.imgComp{
+  size: 15%;
+}
+.Cimage{
+  size: 100%;
+}
+
+.form {
+  text-align: center;
+  background : white;
+  color : black;
+  padding : 10px;
+  margin : auto;
+  width : fit-content;
+  border: inset gray thick;
+  margin-bottom: 20px;
+}
+
+footer{
+	background-color: #38403F;
+	margin-bottom: 0px;
+}
+
+span.python-string{
+    color: #27d;
+}
+span.python-comment{
+    color: #019;
+}
+span.python-keyword{
+    color: #950;
+}
+span.python-builtin{
+    color: #183;
+}
+
+em {
+  color:#339;
+  font-family:courier
+}
+
+strong {
+  color:#339;
+  font-family:courier;
+}
+
+button.nice{
+    margin-right: 15%;
+    color: #fff;
+    background: #7ae;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #45b;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+}
+#play {
+    background-color: #26bfbf;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
