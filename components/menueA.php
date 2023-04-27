@@ -42,7 +42,7 @@
     $projets = $pre->fetchAll(PDO::FETCH_ASSOC);
           
     foreach($projets as $projet){ ?>
-    <li><a href="project.php" class="fa"><?php echo $projet['nomProjet'] ?></a></li>
+    <li><a href="project.php?id=<?php echo $projet['ID'] ?>" class="fa"><?php echo $projet['nomProjet'] ?></a></li>
   <?php } ?>
     <?php if(isset($_SESSION['user'])){ ?>
       <?php if ($_SESSION['user']['admin'] == 1) { ?>
